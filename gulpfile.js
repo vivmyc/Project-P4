@@ -20,10 +20,3 @@ gulp.task('styles', function() {
 		.pipe(gulp.dest('./'));
 });
 
-
-
-// gulp.task('default', function() {
-//   gulp.src(['a.hbs', 'b.hbs', 'c.hbs'])
-//     .pipe(dest('dist', {ext: '.html'}))
-//     .pipe(gulp.dest('./'))
-// });
